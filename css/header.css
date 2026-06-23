@@ -42,6 +42,7 @@ header div.container div p {
     color: white;
     font-size: 25px;
     font-weight: bold;
+    overflow-y: hidden;
 }
 
 header div.container {
