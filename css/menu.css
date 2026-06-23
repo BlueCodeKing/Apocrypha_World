@@ -1,0 +1,41 @@
+div.menu {
+    width: 94vw;
+    margin-left: calc(3vw - 4px);
+    margin-top: 12px;
+    border: solid navy 4px;
+    border-radius: 12px;
+}
+
+div.menu div {
+    border-bottom: solid navy 4px;
+}
+
+div.menu div:first-child {
+    color: white;
+    background-color: navy;
+}
+
+div.menu div:first-child p {
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+div.menu div:last-child {
+    border-bottom: none;
+}
+
+div.menu div a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+div.menu div a p {
+    background-color: blue;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}

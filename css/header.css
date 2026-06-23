@@ -1,0 +1,50 @@
+header {
+    background-image: linear-gradient(dodgerblue, blue);
+    height: 60px;
+    z-index: 50;
+}
+
+header div.logo a {
+    color: white;
+    text-decoration: none;
+}
+
+header div.logo a p {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+header div.logo a p span.logo1 {
+    position: absolute;
+    top: 7px;
+    left: 12px;
+}
+
+header div.logo a p span.logo2 {
+    position: absolute;
+    top: 28px;
+    left: 12px;
+}
+
+header div.container div {
+    width: 45px;
+    height: 45px;
+    background-color: navy;
+    display: inline-block;
+    border-radius: 5px;
+    border: solid white 3px;
+    box-sizing: border-box;
+}
+
+header div.container div p {
+    line-height: 40px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+header div.container {
+    float: right;
+    margin: 7.5px 7.5px 0;
+}

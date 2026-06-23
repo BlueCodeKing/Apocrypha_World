@@ -1,0 +1,65 @@
+nav {
+    z-index: 200;
+    position: fixed;
+    top: 0;
+}
+
+nav #help {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: blue;
+    right: -100vw;
+    transition: .4s;
+}
+
+nav div#help div.close {
+    height: 36px;
+    width: 40px;
+    position: absolute;
+    top: 12px;
+    right: 15px;
+}
+
+nav div.helpTitle {
+    color: white;
+    margin: 12px 15px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+nav div#help div.close div {
+    width: 95%;
+    height: 6px;
+    border-radius: 4px;
+    background-color: white;
+}
+
+nav div#help div.close div:first-child {
+    transform: rotate(45deg) translateY(10px) translateX(14px);
+}
+
+nav div#help div.close div:last-child {
+    transform: rotate(-45deg) translateY(10px) translateX(-6px);
+    background-color: white;
+}
+
+nav div#help hr {
+    background-color: white;
+    margin: 0 15px;
+    width: calc(100% - 30px);
+    height: 1px;
+}
+
+nav div#helpText {
+    margin-top: 50px;
+}
+
+nav div#help p {
+    color: white;
+    margin: 15px;
+}
+
+nav div#help p:first-child {
+    margin-top: 15px;
+}
